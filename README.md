@@ -10,6 +10,7 @@ An installable extension.
 * sms77
 * smstools
 * [SerwerSms](https://dev.serwersms.pl/en/https-api-v2/introduction)
+* Messagenet
 
 ## Setting up
 

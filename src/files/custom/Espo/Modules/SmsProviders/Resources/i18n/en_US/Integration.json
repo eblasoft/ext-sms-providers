@@ -20,6 +20,8 @@
         "serwerSmsPassword": "Password",
         "serwerSmsBaseUrl": "Base URL",
         "serwerSmsSender": "Sender Name",
-        "serwerSmsTest": "Test"
+        "serwerSmsTest": "Test",
+        "messagenetUserId": "User Id",
+        "messagenetPassword": "Password"
     }
 }
