@@ -1,0 +1,17 @@
+{
+    "view": "views/admin/integrations/edit",
+    "fields": {
+        "smsBroadcastUsername": {
+            "type": "varchar",
+            "maxLength": 100,
+            "tooltip": true,
+            "required": true
+        },
+        "smsBroadcastPassword": {
+            "type": "password",
+            "maxLength": 100,
+            "tooltip": true,
+            "required": true
+        }
+    }
+}

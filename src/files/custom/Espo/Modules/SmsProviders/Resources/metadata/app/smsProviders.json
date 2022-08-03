@@ -16,5 +16,8 @@
     },
     "Messagenet": {
         "senderClassName": "Espo\\Modules\\SmsProviders\\Messagenet\\MessagenetSender"
+    },
+    "SmsBroadcast": {
+        "senderClassName": "Espo\\Modules\\SmsProviders\\SmsBroadcast\\SmsBroadcastSender"
     }
 }

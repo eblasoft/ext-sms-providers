@@ -22,6 +22,8 @@
         "serwerSmsSender": "Sender Name",
         "serwerSmsTest": "Test",
         "messagenetUserId": "User Id",
-        "messagenetPassword": "Password"
+        "messagenetPassword": "Password",
+        "smsBroadcastUsername": "Username",
+        "smsBroadcastPassword": "Password"
     }
 }
