@@ -24,6 +24,9 @@
         "messagenetUserId": "User Id",
         "messagenetPassword": "Password",
         "smsBroadcastUsername": "Username",
-        "smsBroadcastPassword": "Password"
+        "smsBroadcastPassword": "Password",
+        "verimorUsername": "Username (Phone)",
+        "verimorPassword": "Password",
+        "verimorSender": "Sender Name"
     }
 }

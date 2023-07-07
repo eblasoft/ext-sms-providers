@@ -19,5 +19,8 @@
     },
     "SmsBroadcast": {
         "senderClassName": "Espo\\Modules\\SmsProviders\\SmsBroadcast\\SmsBroadcastSender"
+    },
+    "Verimor": {
+        "senderClassName": "Espo\\Modules\\SmsProviders\\Verimor\\VerimorSender"
     }
 }
