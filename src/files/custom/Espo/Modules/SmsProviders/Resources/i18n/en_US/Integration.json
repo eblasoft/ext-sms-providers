@@ -27,6 +27,9 @@
         "smsBroadcastPassword": "Password",
         "verimorUsername": "Username (Phone)",
         "verimorPassword": "Password",
-        "verimorSender": "Sender Name"
+        "verimorSender": "Sender Name",
+        "gatewayApiToken": "API Token",
+        "gatewayApiBaseUrl": "API URL",
+        "gatewayApiSender": "Sender Name"
     }
 }

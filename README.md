@@ -11,11 +11,13 @@ An installable extension.
 * smstools
 * [SerwerSms](https://dev.serwersms.pl/en/https-api-v2/introduction)
 * Messagenet
+* [Verimor](https://verimor.com.tr)
+* [GatewayAPI](https://gatewayapi.com)
 
 ## Setting up
 
 1. Install the extension.
-2. At Administration > SMS, select the needed SMS provider. Specify From Number (if needed). 
+2. At Administration > SMS, select the needed SMS provider. Specify From Number (if needed).
 3. At Administration > Integration, open the needed SMS provider and entered required credentials.
 
 

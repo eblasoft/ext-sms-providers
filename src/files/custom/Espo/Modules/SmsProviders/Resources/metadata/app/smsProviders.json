@@ -22,5 +22,8 @@
     },
     "Verimor": {
         "senderClassName": "Espo\\Modules\\SmsProviders\\Verimor\\VerimorSender"
+    },
+    "GatewayAPI": {
+        "senderClassName": "Espo\\Modules\\SmsProviders\\GatewayAPI\\GatewayApiSender"
     }
 }
