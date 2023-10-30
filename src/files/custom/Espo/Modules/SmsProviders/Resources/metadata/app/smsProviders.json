@@ -22,5 +22,8 @@
     },
     "SmsGlobal": {
         "senderClassName": "Espo\\Modules\\SmsProviders\\SmsGlobal\\SmsGlobalSender"
+    },
+    "Messagenet": {
+        "senderClassName": "Espo\\Modules\\SmsProviders\\Messagenet\\MessagenetSender"
     }
 }

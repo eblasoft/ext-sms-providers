@@ -13,6 +13,7 @@ An installable extension.
 * [Verimor](https://verimor.com.tr)
 * [GatewayAPI](https://gatewayapi.com)
 * [SmsGlobal](https://www.smsglobal.com)
+* [MessageNet](https://messagenet.com)
 
 ## Setting up
 

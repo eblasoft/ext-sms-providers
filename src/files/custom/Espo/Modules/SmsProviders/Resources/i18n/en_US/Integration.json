@@ -29,6 +29,8 @@
         "gatewayApiSender": "Sender Name",
         "smsGlobalApiKey": "Sms Global Api Key",
         "smsGlobalApiSecret": "Sms Global Api Secret",
-        "smsGlobalSender": "Sms Global Sender"
+        "smsGlobalSender": "Sms Global Sender",
+        "messagenetUserId": "User Id",
+        "messagenetPassword": "Password"
     }
 }
