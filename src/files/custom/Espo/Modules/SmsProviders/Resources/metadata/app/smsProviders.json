@@ -19,5 +19,8 @@
     },
     "GatewayAPI": {
         "senderClassName": "Espo\\Modules\\SmsProviders\\GatewayAPI\\GatewayApiSender"
+    },
+    "SmsGlobal": {
+        "senderClassName": "Espo\\Modules\\SmsProviders\\SmsGlobal\\SmsGlobalSender"
     }
 }

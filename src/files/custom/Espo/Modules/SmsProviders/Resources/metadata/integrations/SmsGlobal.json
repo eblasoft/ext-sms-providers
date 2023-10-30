@@ -1,0 +1,20 @@
+{
+    "view": "views/admin/integrations/edit",
+    "fields": {
+        "smsGlobalApiKey": {
+            "type": "varchar",
+            "maxLength": 100,
+            "required": true
+        },
+        "smsGlobalApiSecret": {
+            "type": "password",
+            "maxLength": 100,
+            "required": true
+        },
+        "smsGlobalSender": {
+            "type": "varchar",
+            "maxLength": 100,
+            "required": true
+        }
+    }
+}

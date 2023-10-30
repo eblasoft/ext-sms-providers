@@ -26,6 +26,9 @@
         "verimorSender": "Sender Name",
         "gatewayApiToken": "API Token",
         "gatewayApiBaseUrl": "API URL",
-        "gatewayApiSender": "Sender Name"
+        "gatewayApiSender": "Sender Name",
+        "smsGlobalApiKey": "Sms Global Api Key",
+        "smsGlobalApiSecret": "Sms Global Api Secret",
+        "smsGlobalSender": "Sms Global Sender"
     }
 }
