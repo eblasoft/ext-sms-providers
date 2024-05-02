@@ -26,6 +26,9 @@
         "verimorSender": "Sender Name",
         "gatewayApiToken": "API Token",
         "gatewayApiBaseUrl": "API URL",
-        "gatewayApiSender": "Sender Name"
+        "gatewayApiSender": "Sender Name",
+        "hubtelClientId" : "Client ID",
+        "hubtelClientSecret" : "Client Secret",
+        "hubtelSender" : "from"
     }
 }

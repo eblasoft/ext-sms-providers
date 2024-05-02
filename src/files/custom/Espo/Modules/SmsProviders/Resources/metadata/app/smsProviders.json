@@ -19,5 +19,8 @@
     },
     "GatewayAPI": {
         "senderClassName": "Espo\\Modules\\SmsProviders\\GatewayAPI\\GatewayApiSender"
+    },
+    "Hubtel": {
+        "senderClassName": "Espo\\Modules\\SmsProviders\\Hubtel\\HubtelSender"
     }
 }

@@ -1,0 +1,18 @@
+{
+    "view": "views/admin/integrations/edit",
+    "fields": {
+        "hubtelClientId": {
+            "type": "varchar",
+            "required": true
+        },
+        "hubtelClientSecret": {
+            "type": "varchar",
+            "required": true
+        },
+        "hubtelSender": {
+            "type": "varchar",
+            "maxLength": 11,
+            "required": true
+        }
+    }
+}
