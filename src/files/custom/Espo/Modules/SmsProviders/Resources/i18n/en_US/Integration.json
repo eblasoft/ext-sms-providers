@@ -29,6 +29,6 @@
         "gatewayApiSender": "Sender Name",
         "hubtelClientId" : "Client ID",
         "hubtelClientSecret" : "Client Secret",
-        "hubtelSender" : "from"
+        "hubtelSender" : "Sender"
     }
 }

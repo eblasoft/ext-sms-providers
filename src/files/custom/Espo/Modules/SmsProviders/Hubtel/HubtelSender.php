@@ -2,16 +2,21 @@
 
 namespace Espo\Modules\SmsProviders\Hubtel;
 
+use Espo\Core\Exceptions\Error;
+use Espo\Core\Sms\Sender;
+use Espo\Core\Sms\Sms;
+use Espo\Entities\Integration;
+use Espo\ORM\EntityManager;
+
 class HubtelSender implements Sender
 {
-    private const BASE_URL = 'https://devp-sms03726-api.hubtel.com';
+    private const BASE_URL = 'https://sms.hubtel.com';
     private $config;
 
     private $entityManager;
 
-    public function __construct(Config $config, EntityManager $entityManager)
+    public function __construct(EntityManager $entityManager)
     {
-        $this->config = $config;
         $this->entityManager = $entityManager;
     }
 
@@ -40,7 +45,11 @@ class HubtelSender implements Sender
 
         $hubtelClientId = $integration->get('hubtelClientId');
         $apiSecret = $integration->get('hubtelClientSecret');
-        $from = $integration->get('hubtelSender');
+
+        $from = $sender =
+            $sms->getFromNumber() ??
+            $integration->get('hubtelSender') ?? '';;
+
         $baseUrl = self::BASE_URL;
 
         if (!$hubtelClientId) {
@@ -70,7 +79,7 @@ class HubtelSender implements Sender
         $curl = curl_init();
 
         curl_setopt_array($curl, [
-            CURLOPT_URL => $baseUrl . '/v1/messages/send?'. http_build_query($query),
+            CURLOPT_URL => $baseUrl . '/v1/messages/send?' . http_build_query($query),
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_CUSTOMREQUEST => "GET",
         ]);
@@ -82,6 +91,16 @@ class HubtelSender implements Sender
 
         if ($error) {
             throw new Error("cURL Error #:" . $error);
+        }
+
+        $statusCode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
+        if ($statusCode != 201) {
+            throw new Error("Hubtel Error: " . $response);
+        }
+
+        $response = json_decode($response, true);
+        if ($response['status'] != 0) {
+            throw new Error("Hubtel Error: " . $response['message']);
         }
     }
 
