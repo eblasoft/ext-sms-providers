@@ -3,7 +3,11 @@
   "version": "1.6.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "build-extension": "node build --extension",
+      "build-copy": "node build --copy",
+      "run-after-install": "node build --after-install",
+      "watch": "node build --watch"
   },
   "author": "EspoCRM",
   "dependencies": {

@@ -9,10 +9,9 @@
             "type": "varchar",
             "required": true
         },
-        "hubtelSender": {
+        "hubtelDefaultSender": {
             "type": "varchar",
-            "maxLength": 11,
-            "required": true
+            "maxLength": 11
         }
     }
 }

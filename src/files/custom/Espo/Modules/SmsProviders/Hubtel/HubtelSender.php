@@ -48,7 +48,7 @@ class HubtelSender implements Sender
 
         $from = $sender =
             $sms->getFromNumber() ??
-            $integration->get('hubtelSender') ?? '';;
+            $integration->get('hubtelDefaultSender') ?? '';;
 
         $baseUrl = self::BASE_URL;
 
