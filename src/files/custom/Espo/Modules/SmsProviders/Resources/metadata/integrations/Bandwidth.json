@@ -1,0 +1,35 @@
+{
+    "view": "views/admin/integrations/edit",
+    "fields": {
+        "bandwidthUsername": {
+            "type": "varchar",
+            "maxLength": 100,
+            "required": true
+        },
+        "bandwidthPassword": {
+            "type": "varchar",
+            "maxLength": 100,
+            "required": true
+        },
+        "bandwidthAccountId": {
+            "type": "varchar",
+            "maxLength": 100,
+            "required": true
+        },
+        "bandwidthMessagingAppId": {
+            "type": "varchar",
+            "maxLength": 100,
+            "required": true
+        },
+        "bandwidthSender": {
+            "type": "varchar",
+            "maxLength": 15
+        },
+        "bandwidthCallbackUrl": {
+            "type": "url",
+            "view": "sms-providers:views/admin/integrations/bandwidth-callback-url",
+            "copyToClipboard": true,
+            "readOnly": true
+        }
+    }
+}

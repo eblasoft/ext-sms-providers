@@ -19,5 +19,8 @@
     },
     "GatewayAPI": {
         "senderClassName": "Espo\\Modules\\SmsProviders\\GatewayAPI\\GatewayApiSender"
+    },
+    "Bandwidth": {
+        "senderClassName": "Espo\\Modules\\SmsProviders\\Bandwidth\\BandwidthSender"
     }
 }

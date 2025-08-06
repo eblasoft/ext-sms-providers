@@ -26,6 +26,12 @@
         "verimorSender": "Sender Name",
         "gatewayApiToken": "API Token",
         "gatewayApiBaseUrl": "API URL",
-        "gatewayApiSender": "Sender Name"
+        "gatewayApiSender": "Sender Name",
+        "bandwidthUsername": "Username",
+        "bandwidthPassword": "Password",
+        "bandwidthAccountId": "AccountId",
+        "bandwidthMessagingAppId": "Messaging App Id",
+        "bandwidthSender": "Sender",
+        "bandwidthCallbackUrl": "Callback URL"
     }
 }

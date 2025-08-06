@@ -1,0 +1,8 @@
+[
+    {
+        "route": "/SmsCallback/bandwidth",
+        "method": "post",
+        "actionClassName": "Espo\\Modules\\SmsProviders\\Tools\\Callback\\Api\\Bandwidth",
+        "noAuth": true
+    }
+]

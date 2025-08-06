@@ -1,0 +1,8 @@
+{
+    "fields": {
+        "externalId": {
+            "type": "varchar",
+            "maxLength": 255
+        }
+    }
+}
