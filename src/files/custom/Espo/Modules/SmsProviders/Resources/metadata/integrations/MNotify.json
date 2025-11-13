@@ -1,0 +1,14 @@
+{
+    "view": "views/admin/integrations/edit",
+    "fields": {
+        "mNotifyApiKey": {
+            "type": "varchar",
+            "required": true
+        },
+        "mNotifyApiBaseUrl": {
+            "type": "varchar",
+            "required": false,
+            "tooltip": true
+        }
+    }
+}

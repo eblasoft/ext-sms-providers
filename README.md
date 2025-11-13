@@ -12,6 +12,7 @@ An installable extension.
 * [SerwerSms](https://dev.serwersms.pl/en/https-api-v2/introduction)
 * [Verimor](https://verimor.com.tr)
 * [GatewayAPI](https://gatewayapi.com)
+* [MNotify](https://developer.mnotify.com)
 
 ## Setting up
 

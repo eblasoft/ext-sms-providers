@@ -22,5 +22,8 @@
     },
     "Hubtel": {
         "senderClassName": "Espo\\Modules\\SmsProviders\\Hubtel\\HubtelSender"
+    },
+    "MNotify": {
+        "senderClassName": "Espo\\Modules\\SmsProviders\\MNotify\\MNotifySender"
     }
 }

@@ -29,6 +29,14 @@
         "gatewayApiSender": "Sender Name",
         "hubtelClientId" : "Client ID",
         "hubtelClientSecret" : "Client Secret",
-        "hubtelDefaultSender" : "Default Sender"
+        "hubtelDefaultSender" : "Default Sender",
+        "mNotifyApiKey": "API Key",
+        "mNotifyApiBaseUrl": "API Base URL"
+    },
+    "labels": {
+        "MNotify": "MNotify"
+    },
+    "tooltips": {
+        "mNotifyApiBaseUrl": "Optional. Default: https://api.mnotify.com/api/sms/quick"
     }
 }
